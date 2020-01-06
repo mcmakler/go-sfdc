@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/g8rswimmer/go-sfdc/sobject"
+	"github.com/mcmakler/go-sfdc/sobject"
 
-	"github.com/g8rswimmer/go-sfdc"
+	"github.com/mcmakler/go-sfdc"
 
-	"github.com/g8rswimmer/go-sfdc/session"
+	"github.com/mcmakler/go-sfdc/session"
 )
 
 func TestDelete_values(t *testing.T) {
