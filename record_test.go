@@ -462,7 +462,7 @@ func TestRecord_LookUps(t *testing.T) {
 	tests := []struct {
 		name   string
 		fields fields
-		want   []*Record
+		want   []map[string]*Record
 	}{
 		{
 			name: "the look ups",
@@ -473,9 +473,11 @@ func TestRecord_LookUps(t *testing.T) {
 					},
 				},
 			},
-			want: []*Record{
-				&Record{
-					sobject: "LookUps",
+			want: []map[string]*Record{
+				{
+					"LookUps" : &Record{
+						sobject: "LookUps",
+					},
 				},
 			},
 		},
