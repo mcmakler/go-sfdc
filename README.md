@@ -1,5 +1,6 @@
 # go-sfdc
-This is a `golang` library for interfacing with `Salesforce` APIs.
+This is a `golang` library for interfacing with `Salesforce` APIs. forked from g8rswimmer/go-sfdc
+
 
 ## Getting Started
 ### Installing
