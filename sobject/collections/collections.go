@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/g8rswimmer/go-sfdc"
-	"github.com/g8rswimmer/go-sfdc/session"
-	"github.com/g8rswimmer/go-sfdc/sobject"
+	"github.com/mcmakler/go-sfdc"
+	"github.com/mcmakler/go-sfdc/session"
+	"github.com/mcmakler/go-sfdc/sobject"
 )
 
 const (
